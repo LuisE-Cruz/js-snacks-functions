@@ -6,7 +6,7 @@ const message = welcome(saluto, userName);
 // Dichiara la funzione qui.
 
 function welcome(saluto, nome){
-    let message = (saluto + "" + userName)
+    let message = (saluto + " " + userName)
     return message;
 }
 
