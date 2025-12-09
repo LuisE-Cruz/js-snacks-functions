@@ -2,7 +2,7 @@
 
 const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
-const userCharacter = 'A'
+const userCharacter = prompt('inserisci una lettera')
 
 // Dichiara la funzione qui.
 
@@ -10,11 +10,11 @@ function oneCharacterArray(array, character){
 
     const newArray = [];
     for (let i = 0; i < array.length; i++){
-        if(array[i].charAt(0) === character){
+        if(array[i].charAt(0).toUpperCase() === character.toUpperCase()){
             newArray.push(array[i])
         }
     }
-    
+
      return newArray;
 } 
 
