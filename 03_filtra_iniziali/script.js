@@ -2,8 +2,13 @@
 
 const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
+const userCharacter = 'A'
 
 // Dichiara la funzione qui.
+
+function oneCharacterArray(array, character){
+     
+} 
 
 
 // Invoca la funzione qui e stampa il risultato in console
